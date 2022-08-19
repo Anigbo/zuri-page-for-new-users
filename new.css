@@ -1406,13 +1406,13 @@ h5 {
   .red {
     font-size: 65px;
     margin-left: 1100px;
-    margin-top: 100px;
+    margin-top: 50px;
   }
   h6 {
     font-size: 100px;
     width: 1000px;
     margin-left: 700px;
-    margin-top: -200px;
+    margin-top: -180px;
   }
   .black{
     font-size: 55px;
@@ -1534,8 +1534,582 @@ font-size: 50px;
 }
 }
 
+@media (max-width: 540px) {
+    body {
+        width: 100%;
+        overflow: auto;
+        scroll-behavior: smooth;
+    }
 
 
+.sub-why p {
+font-size: 70px;
+width: 700px;
+margin-top: -20px;
+}
+
+h2 {
+font-size: 100px;
+width: 2000px;
+}
+
+.list {
+margin: 20px;
+margin-top: 100px;
+
+
+}
+
+.list ol{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 2100px;
+}
+
+
+ol li {
+height: 1400px;
+border-radius: 100px;
+margin: 30px;
+margin-top: 100px;
+
+
+}
+
+li img {
+position: relative;
+left: 1480px;
+top: -30px;
+width: 500px;
+
+
+}
+
+.hands-on img, .beginner img {
+position: relative;
+top: -21px;
+left: 1480px;
+}
+
+.collabo img, .mentorship img {
+position: relative;
+top: -21px;
+left: 1480px;
+}
+
+.list li  {
+font-size: 80px;
+margin: 50px;
+}
+.programs .frontend, .backend, .product, .devops, .fullstack, .framework {
+
+width: 1800px;
+height: 2500px;
+margin: 20px;
+margin-top: 100px;
+font-size: 70px;
+margin-left: 100px;
+border-radius: 120px;
+padding: 20px;
+}
+
+
+
+.programs img {
+width: 280px;
+height: 280px;
+}
+.pro-scop button{
+width: 90%;
+height: 200px;
+font-size: 70px;
+margin: 20px;
+margin-left: 800px;
+padding: 10px;
+margin-top: 200px;
+border-radius: 200px;
+}
+
+.faqs_container {
+width: 100%;
+height: 2800px;
+}
+
+
+.faqs_container p {
+font-size: 70px;
+margin: 20px;
+margin-left: 200px;
+width: 1000px;
+}
+h5 {
+font-size: 100px;
+margin-left: 30px;
+width: 1500px;
+}
+
+.collapsible {
+margin: 20px;
+margin-top: 50px;
+margin-left: 100px;
+width: 2000px;
+height: 2000px;
+
+}
+.collapsible-btn {
+padding: 70px;
+font-size: 55px;
+width: 1800px;
+height: 250px;
+}
+
+#faq_btn1 .plus-close {
+display: inline-block;
+position: relative;
+left: 440px;
+top: 10px;
+
+}
+#faq_btn2 .plus-close {
+display: inline-block;
+position: relative;
+left: 370px;
+top: 10px;
+
+}
+
+#faq_btn3 .plus-close {
+display: inline-block;
+position: relative;
+left: 540px;
+top: 10px;
+
+}
+
+#faq_btn4 .plus-close {
+display: inline-block;
+position: relative;
+left: 1460px;
+top: 10px;
+
+}
+
+#faq_btn5 .plus-close {
+display: inline-block;
+position: relative;
+left: 1250px;
+top: 10px;
+
+}
+
+.still {
+margin-top: -100px;
+margin-left: 200px;
+
+
+}
+
+
+.red {
+font-size: 65px;
+margin-left: 800px;
+margin-top: 100px;
+}
+h6 {
+font-size: 100px;
+width: 1000px;
+margin-left: 600px;
+margin-top: -50px;
+}
+
+
+.full-time, .part-time {
+width: 2000px;
+margin-left: 70px;
+
+}
+
+.sub {
+width: 2000px;
+height: 1700px;
+margin-top: 600px;
+border-radius: 200px;
+margin-left: 80px;
+background-size: 300px;
+}
+
+.socials {
+margin: 10px;
+padding: 10px;
+margin-left: 600px;
+display: flex;
+margin-top: 50px;
+}
+
+}
+
+
+@media (max-width: 415px) {
+    
+.search {
+width: 100%;
+height: 2200px;
+}
+#lady1 {
+ position: relative;
+ left: 200px;
+ top: 150px;
+ width: 1200px;
+ height: 1200px;
+ 
+}
+.scale {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    
+    }
+
+h1 {
+font-size: 130px;
+margin-left: -450px;
+width: 1400px;
+text-align: center;
+
+}
+
+.scale p {
+    margin-left: -250px;
+}
+#wire1 {
+margin-left: -10px;
+width: 500px;
+}
+
+
+.search button {
+    margin-left: 100px;
+}
+
+.basic {
+     margin-left: -300px;
+}
+
+#wire2 {
+    width: 300px;
+    margin-left: 500px;
+    margin-top: -100px;
+}
+
+.launch {
+   margin-top: 1200px;
+}
+.sub-launch {
+height: 1000px;
+flex-direction: column;
+width: 100%;
+margin: 20px;
+margin-top: 200px;
+
+}
+
+.sub-launch p {
+width: 1600px;
+margin-left: 1200px;
+}
+.sub-launch .help {
+width: 1400px;
+margin-top: 100px;
+}
+
+.help a {
+font-size: 80px;
+}
+
+.sub-launch #power {
+width: 900px;
+height: 600px;
+margin: 10px;
+margin-left: 1200px;
+margin-top: 100px;
+}
+
+h2 {
+font-size: 100px;
+width: 1500px;
+}
+
+.list ol li {
+    margin-left: -500px;
+}
+ol li {
+height: 1400px;
+border-radius: 100px;
+margin-top: 100px;
+width: 1300px;
+
+}
+
+li img {
+position: relative;
+left: 980px;
+top: -30px;
+width: 300px;
+
+
+}
+
+.hands-on img, .beginner img {
+position: relative;
+top: -21px;
+left: 980px;
+}
+
+.collabo img, .mentorship img {
+position: relative;
+top: -21px;
+left: 980px;
+}
+
+.get-started #wire3 {
+
+margin-left: 1000px;
+}
+
+
+.get-started h3 {
+width: 1600px;
+}
+.get-started .weekly {
+width: 1500px;
+
+}
+#disabled_btn {
+position: relative;
+top: 10px;
+margin-top: 70px;
+display: flex;
+flex-direction: row;
+
+
+}
+
+#disabled_btn button {
+font-size: 65px;
+border: 10px solid #fff;
+width: 600px;
+height: 200px;
+border-radius: 200px;
+margin: 10px;
+
+}
+#disabled_btn .button2 {
+    position: relative;
+    left: -300px
+}
+
+#disabled_btn .button1 {
+    position: relative;
+    left: 80px
+}
+
+
+#disabled_btn button img {
+width: 100px;
+}
+.lady2-img {
+left: 400px;
+top: 20px;
+width: 700px;
+height: 600px;
+}
+
+h4 {
+font-size: 100px;
+width: 1300px;
+}
+.pro-scop #wire4 {
+width: 400px;
+margin-left: 400px;
+}
+
+
+.programs .frontend, .backend, .product, .devops, .fullstack, .framework {
+
+width: 1300px;
+height: 3500px;
+margin-left: 100px;
+padding: 25px;
+}
+
+.pro-scop button{
+width: 100%;
+height: 200px;
+margin: 20px;
+margin-left: 600px;
+}
+
+
+.faqs_container p {
+font-size: 70px;
+margin: 20px;
+margin-left: 50px;
+width: 1000px;
+}
+h5 {
+font-size: 100px;
+margin-left: -300px;
+width: 1500px;
+}
+
+.collapsible {
+
+margin-top: 100px;
+width: 1500px;
+height: 2000px;
+
+}
+.collapsible-btn {
+padding: 70px;
+font-size: 55px;
+width: 1500px;
+height: 250px;
+}
+
+#faq_btn1 .plus-close {
+display: inline-block;
+position: relative;
+left: 750px;
+top: 10px;
+
+}
+#faq_btn2 .plus-close {
+display: inline-block;
+position: relative;
+left: 670px;
+top: 10px;
+
+}
+
+#faq_btn3 .plus-close {
+display: inline-block;
+position: relative;
+left: 840px;
+top: 10px;
+
+}
+
+#faq_btn4 .plus-close {
+display: inline-block;
+position: relative;
+left: 260px;
+top: 10px;
+
+}
+
+#faq_btn5 .plus-close {
+display: inline-block;
+position: relative;
+left: 1550px;
+top: 10px;
+
+}
+.first {
+display: none;
+
+}
+
+.second { 
+display: none;
+}
+
+.still {
+margin-top: -100px;
+margin: 10px;
+
+
+}
+
+.structure #star2 {
+width: 300px;
+position: relative;
+top: -400px;
+left: 1200px;
+}
+.red {
+font-size: 65px;
+margin-left: 600px;
+margin-top: 50px;
+}
+h6 {
+font-size: 100px;
+width: 1000px;
+margin-left: 300px;
+margin-top: -200px;
+}
+.black{
+font-size: 55px;
+width: 1500px;
+margin-left: 100px;
+
+}
+
+.full-time, .part-time {
+width: 1500px;
+margin-left: 50px;
+
+}
+
+.sub {
+width: 1500px;
+margin-left: 80px;
+
+}
+
+footer {
+height: 1200px;
+
+}
+
+
+.logo {
+margin: 10px;
+padding: 10px;
+margin-left: 400px;
+
+}
+.logo a img {
+width: 900px;
+height: 200px;
+}
+.logo p {
+position: relative;
+top: 800px;
+left: 150px;
+font-size: 50px;
+}
+.socials {
+position: relative;
+top: 200px;
+left: -1400px;
+}
+.socials a img {
+width: 120px;
+height: 120px;
+margin: 20px;
+}
+
+.bottom a {
+
+font-size: 50px;
+position: relative;
+top: 200px;
+margin: 20px;
+padding: 10px;
+}
+}
 
 
 
